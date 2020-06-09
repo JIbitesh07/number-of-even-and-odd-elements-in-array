@@ -1,0 +1,14 @@
+arr=[24,35,67,98,14,17]
+
+#assigning two variables to count the number of even and odd elements respectively
+counter_even=0
+counter_odd=0
+#using a for loop to iterate through the array and count the number of odd and even elements
+for i in range(0,len(arr)):
+    if(arr[i]%2==0):
+        counter_even=counter_even+1
+    else:
+        counter_odd=counter_odd+1
+#printing the number of even and odd elemets         
+print("the number of even number are",counter_even)
+print("the number of odd numbers are",counter_odd)
